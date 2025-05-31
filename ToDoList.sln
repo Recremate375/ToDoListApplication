@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A09A8DB-8BB1-439E-B604-BD5F3ECCFCC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerSide", "ServerSide", "{6B969573-9301-45FE-8251-948CE3F34C54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientSide", "ClientSide", "{3487AAA8-049F-423E-A691-063691E9D867}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{10E5598A-C2AD-467B-B4C6-1BEAD1CE86DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TasksService", "TasksService", "{4EDDB766-56B1-446E-9027-1AF365F2E7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListClientSide", "src\ClientSide\ToDoListClientSide\ToDoListClientSide.csproj", "{7415783E-B9E2-4512-BC9B-389B5E215BC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7415783E-B9E2-4512-BC9B-389B5E215BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7415783E-B9E2-4512-BC9B-389B5E215BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7415783E-B9E2-4512-BC9B-389B5E215BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7415783E-B9E2-4512-BC9B-389B5E215BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B969573-9301-45FE-8251-948CE3F34C54} = {6A09A8DB-8BB1-439E-B604-BD5F3ECCFCC8}
+		{3487AAA8-049F-423E-A691-063691E9D867} = {6A09A8DB-8BB1-439E-B604-BD5F3ECCFCC8}
+		{10E5598A-C2AD-467B-B4C6-1BEAD1CE86DD} = {6B969573-9301-45FE-8251-948CE3F34C54}
+		{4EDDB766-56B1-446E-9027-1AF365F2E7CA} = {6B969573-9301-45FE-8251-948CE3F34C54}
+		{7415783E-B9E2-4512-BC9B-389B5E215BC0} = {3487AAA8-049F-423E-A691-063691E9D867}
+	EndGlobalSection
+EndGlobal
